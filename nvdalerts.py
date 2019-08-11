@@ -1,4 +1,4 @@
-# NVD Alerting Script
+# NVD-Alerts Script
 # Version 1.0
 # Author: Ahmed Musaad
 
