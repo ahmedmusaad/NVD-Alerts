@@ -45,7 +45,7 @@ python3 nvdalerts.py
 
 The script will run smoothly if everything is configured correctly. You will get an email within a few minutes with the new CVE IDs that you need to check. 
 
-If you disable emails, uncomment the only print() function in the code before running the script and you will get the results in your console.
+If you disable emails, uncomment the print() function on **line 44** before running the script and you will get the results in your console.
 
 ## Automation
 
