@@ -49,7 +49,7 @@ If you disable emails, uncomment the only print() function in the code before ru
 
 ## Automation
 
-My main goal is to let this script run daily so automating it via cron jobs or any other automation method would be the next step but I won't get into that, Google cron jobs if you need to do this.
+My main goal is to let this script run daily so automating it via cron jobs or any other method would be the next step but I won't get into that, Google cron jobs if you need to do this.
 
 ## Important Notice
 
