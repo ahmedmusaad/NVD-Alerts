@@ -9,7 +9,7 @@ I wrote this script to parse the NVD Recent Feed and analyze the information ext
 
 ## Requirements
 
-The script has few requirements, those are:
+The script has a few requirements, those are:
 
 - Python3
 - A mailgun account (Optional in case you want emails)
