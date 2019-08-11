@@ -35,8 +35,9 @@ The code that sends the email is commented out by default, don't forget to uncom
 
 ## Usage
 
-1. First fill the names of the vendors in the text file.
-2. Run the script using the following command:
+1. First fill the names of the vendors in the text file. One vendor per line.
+2. Either fill in the email configuration details or comment it out.
+3. Run the script using the following command:
 
 ```
 python3 nvdalerts.py
