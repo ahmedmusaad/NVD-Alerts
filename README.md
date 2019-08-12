@@ -1,11 +1,11 @@
 # NVD-Alerts
-A small script that will send you a daily summary of new CVEs based on a list of predefined vendors.
+A small script that will send you a daily summary of new CVEs based on a list of predefined terms.
 
 ## Why?
 
 Part of my daily job is to keep an eye on new vulnerabilities and part of that is sifting through the NIST NVD feeds. Going through those feeds can be exhausting and time-consuming as they contain a lot of information that might not be relevant to our work at all.
 
-I wrote this script to parse the NVD Recent Feed and analyze the information extracted from it to check if a certain CVE is of interest to me or not (based on a list of vendors). Once the analysis part is done, the script uses Mailgun services to email me a concise message with CVE IDs which I need to check.
+I wrote this script to parse the NVD Recent Feed and analyze the information extracted from it to check if a certain CVE is of interest to me or not (based on a list of terms). Once the analysis part is done, the script uses Mailgun services to email me a concise message with CVE IDs which I need to check.
 
 ## Requirements
 
@@ -35,8 +35,8 @@ The code that sends the email is commented out by default, don't forget to uncom
 
 ## Usage
 
-1. First fill the names of the vendors in the text file. One vendor per line.
-2. Either fill in the email configuration details or comment it out.
+1. First add the terms you want to monitor to the Terms text file. One term per line.
+2. Either fill in the email configuration details and call the function in the main function or leave the code as it is.
 3. Run the script using the following command:
 
 ```
