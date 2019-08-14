@@ -77,7 +77,7 @@ def send_email(message):
 
 def main():
     print("NVD Alerts\nVersion 1.2\n\n")
-    # download_feed()
+    download_feed()
     result = parse_feed_json(load_json(), read_terms())
     print(result)
     print('Script Completed Successfully')
